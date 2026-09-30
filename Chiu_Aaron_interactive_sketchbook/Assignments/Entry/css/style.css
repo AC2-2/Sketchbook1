@@ -1,0 +1,56 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Css is how we add all things style, below there are two simple styles added
+go ahead and play with these, can you get the colors to change? What do you notice?
+ */
+
+body {
+    color: #26241C;
+    background-color: #F2F0D8;
+    margin-top: 60px;
+    height: 1500px;
+}
+
+
+.container {
+    background-color: brown;
+    color: black;
+    position: fixed;
+    width: 100%;
+    Top: 0;
+    overflow:hidden;
+}
+
+.container a {
+    color: black;
+    float: right;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+   font-size: 26px; 
+}
+
+.container a:hover {
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+.box {
+    display: flex;
+    align-items: justify;
+    padding: 15px 15px;
+
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+}

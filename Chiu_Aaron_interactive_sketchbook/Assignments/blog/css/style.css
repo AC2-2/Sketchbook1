@@ -1,0 +1,104 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+* :not nav{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f19a4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main {
+    background-color: #cde3f1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh;
+    width: 1000px;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+footer {
+    background-color: #00acc0;
+    width: 1000px;
+    min-height: 30dvh;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+hr {
+    flex: 0 0 100%;
+}
+
+.link {
+    color: #3f4a1b;
+    font-style: normal;
+    text-decoration: none;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    justify-content:space-between;
+    width: 1000px;
+}
+
+.n {
+        color: #047F8C;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#header {
+    color: #3f4a1b;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.author {
+        color: #3f4a1b;
+    text-decoration: none;
+    font-style: normal;
+}
+
+aside :not.issues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+img {
+    width: 300px;
+}
+
+.these {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.issues {
+            color: #3f4a1b;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.blue {
+    color: #047F8C;
+}
